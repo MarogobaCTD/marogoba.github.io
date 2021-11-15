@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: block;
+    padding: 10px;
+}
+
+#titulo{
+    background-color: gold;
+    text-align: center;
+    color: #5f6360;
+    font-family:  'Berkshire Swash', cursive;
+    font-size: 45px;
+}
+
+.principal{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color: gold;
+    text-align: center;
+    padding: 10px;
+}
+
+strong {
+    color: white;
+}
+
+.imagem{
+    background-image: url("../images/itabira-minas-gerais-lbsturismo-1024x683.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.video{
+    padding: 20px;
+    width: 1280px;
+    height: 720px;
+    border-top-width: 0px;
+    border-right-width: 0px;    
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+
+#Curiosidades{
+    color: gold;
+    font-family: 'Berkshire Swash', cursive;
+    text-align: center;
+    font-size: 50px;
+    font-style: oblique;
+    padding: 10px;
+}
+
+ul{
+    color: gold;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Berkshire Swash', cursive;
+    font-style: oblique;
+    margin: 20px 0px;
+}
+
+a{
+    color: gold;
+    text-decoration: none;
+}
+
+.rodape{
+    padding: 10px;
+    text-align: center;
+}
+
+.icones {
+    margin: 20px;
+    width: 70px;
+    height: 70px;
+}
