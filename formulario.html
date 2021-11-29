@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - checkpoint2</title>
+    <link rel="stylesheet" href="styles/styles_form.css">
+</head>
+<body class="imagem">
+
+    <header>
+        <h1 id="titulo">Cidade de Itabira - Terra do Poeta</h1>
+    </header>
+
+    <aside>
+        <ul>
+            <ul>
+                <li>
+                    <a href="https://www.ufmg.br/vieiraservas/municipio/itabira/">Cidade do Ferro - O que é Itabira?</a>
+                </li>
+                <li>
+                    <a href="https://www.carlosdrummond.com.br/conteudos/visualizar/Boitempo-Esquecer-para-lembrar">Cidade do Poeta - Boitempo</a>
+                </li>
+                <li> 
+                    <a href="https://fccda.com.br/novo/caminhos-drummondianos/">Caminhos Drummondianos</a> 
+                </li>
+                <li>
+                    <a href="https://www.eduardo-monica.com/new-blog/roteiro-itabira-minas-gerais">Roteiro de viagens</a> 
+                </li>
+                <li>
+                    <a href="https://fccda.com.br/novo/festival-de-inverno-2/">Festival de Inverno</a>
+                </li>
+                <li>
+                    <a href="https://fccda.com.br/novo/semana-drummondiana/">Semana Drumondiana</a>
+                </li>
+                <li>
+                    <a href=https://www.youtube.com/watch?v=t4uIhRH7Nq0&t=134s">Flip Itabira 2021</a>
+                </li>
+            </ul>
+        </ul>
+    </aside>
+
+    <main>
+
+        <form class="main-form">
+
+            <h1>Formulário</h1>
+ 
+             <fieldset class="main-fieldset">
+ 
+                 <div>
+                     <label for="userName">Nome</label>
+                     <input type="text" name="userName" id="userName" class="custom-input" maxlength="100">
+                 </div>
+ 
+                 <div>
+                     <label for="userEmail">E-mail</label>
+                     <input type="email" name="userEmail" id="userEmail" class="custom-input">
+                 </div>
+ 
+                 <div>
+                     <label for="userPhone">Telefone</label>
+                     <input type="text" name="userPhone" id="userPhone" class="custom-input">
+                 </div>
+
+                 <div>
+                    <label for="userNiver">Data de Nascimento</label>
+                    <input type="date" name="userNiver" id="userNiver" class="custom-input">
+                 </div>
+                 
+
+                 <div>
+                     <h3>Maior ou menor de idade?</h3>
+                     <input type="radio" name="optionIdade" id="firstOptionIdade" class="custom-radio" checked>
+                     <label for="firstOptionIdade">Maior</label>
+
+                     <input type="radio" name="optionIdade" id="secondOptionIdade" class="custom-radio">
+                     <label for="secondOptionIdade">Menor</label>
+                 </div>
+                 
+
+                 <div>
+                     <h3>Ponto de interesse</h3>
+
+                     <input type="radio" name="optionInteresse" id="firstOptionInteresse" class="custom-radio" checked>
+                     <label for="firstOptionInteresse">Fazenda do Pontal</label>
+
+                     <input type="radio" name="optionInteresse" id="secondOptionInteresse" class="custom-radio">
+                     <label for="secondOptionInteresse">Casa do Brás</label>
+
+                     <input type="radio" name="optionInteresse" id="ThirdOptionInteresse" class="custom-radio">
+                     <label for="ThirdOptionInteresse">Caminhos Drummondianos</label>
+                 </div>
+
+                 <div>
+                     <h3>Motivo da Visita</h3>
+                     <input type="checkbox" name="checkVisita" id="firstOptionVisita" class="custom-checkbox">
+                     <label for="firstOptionVisita">Turista</label>
+                
+                     <input type="checkbox" name="checkVisita" id="secondOptionVisita" class="custom-checkbox">
+                     <label for="secondOptionVisita">Residente</label>
+
+                     <input type="checkbox" name="checkVisita" id="ThirdOptionVisita" class="custom-checkbox">
+                     <label for="ThirdOptionVisita">Estudante</label>
+                 </div> 
+ 
+             </fieldset>
+ 
+             <button class="main-button" type="reset">Limpar</button>
+             <button class="main-button" type="submit">Enviar</button>
+
+    </main>
+    
+</body>
+</html>
